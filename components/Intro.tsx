@@ -128,7 +128,7 @@ export default function Intro() {
         >
           <motion.a
             className="group bg-white w-[80vw] sm:w-52 py-3 flex items-center justify-center gap-2 rounded-md outline-none focus:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 text-sm xl:text-base uppercase text-center font-semibold "
-            href="/jabeed.pdf"
+            href="/Shivam_Tiwari_Resume.pdf"
             download
           >
             Download CV{" "}
