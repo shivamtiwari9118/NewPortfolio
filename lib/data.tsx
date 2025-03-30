@@ -5,8 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import { HiHome } from "react-icons/hi";
 // import { IoPersonOutline } from "react-icons/io";
 
-import Harley from "@/public/harley.png";
-import TripTales from "@/public/triptales.png";
+import Harley from "@/public/Harley.png";
+import TripTales from "@/public/TripTales.png";
 import vocalize from "@/public/vocalize.png";
 import portfolio from "@/public/portfolio.png";
 import chat from "@/public/chat.png";
