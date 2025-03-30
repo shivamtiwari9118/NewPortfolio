@@ -5,8 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import { HiHome } from "react-icons/hi";
 // import { IoPersonOutline } from "react-icons/io";
 
-import luxehaven from "@/public/luxehaven.png";
-import filmagic from "@/public/filmagic.png";
+import Harley from "@/public/harley.png";
+import TripTales from "@/public/triptales.png";
 import vocalize from "@/public/vocalize.png";
 import portfolio from "@/public/portfolio.png";
 import chat from "@/public/chat.png";
@@ -47,19 +47,19 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "LuxeHaven",
+    title: "Harley Davidson",
     description:
-      "Developed a groundbreaking e-commerce platform using MERN, ensuring a user-centric, secure, and highly efficient shopping experience",
+      "Developed a groundbreaking Harley Davidson Showcase platform, on which you can see real time data of Harley Davidson bikes, and also you can add your own bike to the platform.",
 
     tags: ["React", "Express.js", "MongoDB", "Tailwind", "Mongoose", "Redux"],
-    imageUrl: luxehaven,
-    live: "https://github.com/iamjabeed/LuxeHaven",
-    code: "https://github.com/iamjabeed/LuxeHaven",
+    imageUrl: Harley,
+    live: "https://harley-davidson.vercel.app/",
+    code: "https://github.com/shivamtiwari9118/Harley-Davidson",
   },
   {
-    title: "Real-Time Chat App",
+    title: "TripTales",
     description:
-      "Developed a full-stack web application that allows users to chat with each other in real-time. It uses Socket.io for bi-directional data transfer.",
+      "Build and optimize your itineraries with our free AI trip planner. Designed for vacations and everyday adventures.",
 
     tags: [
       "Zustand",
@@ -69,38 +69,38 @@ export const projectsData = [
       "MongoDB",
       "Tailwind",
     ],
-    imageUrl: chat,
-    live: "https://swiftline.onrender.com/",
-    code: "https://github.com/iamjabeed/realtime-chat",
+    imageUrl: TripTales,
+    live: "https://trip-tales-navy.vercel.app/",
+    code: "https://github.com/shivamtiwari9118/TripTales",
   },
-  {
-    title: " Digital Portfolio",
-    description:
-      "Engineered and launched a sleek and responsive personal portfolio website,effectively showcasing my expertise, projects, and accomplishments.",
-    tags: ["Next.js", "Typescript", "Tailwind", "Framer"],
-    imageUrl: portfolio,
-    live: "https://jabeed.vercel.app/",
-    code: "https://jabeed.vercel.app/",
-  },
-  {
-    title: "The Filmagic",
-    description:
-      "Created a movie streaming app with real-time access to detailed information on movies, TV shows, cast, related videos, and insider details using TMDB API.",
-    tags: ["React", "SCSS", "React Router", "Redux", "TMDB API"],
-    imageUrl: filmagic,
-    live: "https://filmagic-jabeed.vercel.app/",
-    code: "https://github.com/iamjabeed/Filmagic",
-  },
+  // {
+  //   title: " Digital Portfolio",
+  //   description:
+  //     "Engineered and launched a sleek and responsive personal portfolio website,effectively showcasing my expertise, projects, and accomplishments.",
+  //   tags: ["Next.js", "Typescript", "Tailwind", "Framer"],
+  //   imageUrl: portfolio,
+  //   live: "https://jabeed.vercel.app/",
+  //   code: "https://jabeed.vercel.app/",
+  // },
+  // {
+  //   title: "The Filmagic",
+  //   description:
+  //     "Created a movie streaming app with real-time access to detailed information on movies, TV shows, cast, related videos, and insider details using TMDB API.",
+  //   tags: ["React", "SCSS", "React Router", "Redux", "TMDB API"],
+  //   imageUrl: filmagic,
+  //   live: "https://filmagic-jabeed.vercel.app/",
+  //   code: "https://github.com/iamjabeed/Filmagic",
+  // },
 
-  {
-    title: "Vocalize",
-    description:
-      "Created a React app with advanced speech recognition technology, providing users with an interactive and hands-free experience.",
-    tags: ["React", "HTML5", "Tailwind", "Framer"],
-    imageUrl: vocalize,
-    live: "https://vocalize-blush.vercel.app/",
-    code: "https://github.com/iamjabeed/Vocalize",
-  },
+  // {
+  //   title: "Vocalize",
+  //   description:
+  //     "Created a React app with advanced speech recognition technology, providing users with an interactive and hands-free experience.",
+  //   tags: ["React", "HTML5", "Tailwind", "Framer"],
+  //   imageUrl: vocalize,
+  //   live: "https://vocalize-blush.vercel.app/",
+  //   code: "https://github.com/iamjabeed/Vocalize",
+  // },
 ] as const;
 
 export const skillsData = [
