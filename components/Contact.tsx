@@ -18,7 +18,7 @@ const Contact = () => {
   };
 
   const handleCopyEmail = () => {
-    const email = "shivamtiwarivinshyachal@gmail.com";
+    const email = "shivamt73885@gmail.com";
     navigator.clipboard.writeText(email);
     toast.success("Email copied to clipboard");
   };
