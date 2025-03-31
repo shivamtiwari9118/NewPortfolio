@@ -16,13 +16,13 @@ const Footer = () => {
           </Link>
           . All rights reserved.
         </small>
-        <p className="text-sm ">
+{/*         <p className="text-sm ">
           <span className="font-semibold">Embark on a journey:</span> This
           website is a React & Next.js masterpiece (with App Router & Server
           Actions), sprinkled with TypeScript, tailored using Tailwind CSS,
           choreographed with Framer Motion, empowered by React Email & Resend,
           and hosted gracefully on Vercel.
-        </p>
+        </p> */}
       </div>
     </footer>
   );
